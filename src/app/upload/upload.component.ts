@@ -10,7 +10,7 @@ import {Router} from '@angular/router';
   providers: [GalleryService]
 })
 export class UploadComponent implements OnInit {
-  public uploader:FileUploader = new FileUploader({url:'http://127.0.0.1:5000/api/gallery'});
+  public uploader:FileUploader = new FileUploader({url:'https://rbk-warriors.herokuapp.com/api/gallery'});
   public hasBaseDropZoneOver:boolean = false;
   public fileOverBase(e:any):void {
     this.hasBaseDropZoneOver = e;

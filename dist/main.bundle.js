@@ -1949,7 +1949,7 @@ var UploadComponent = (function () {
     function UploadComponent(galleryService, router) {
         this.galleryService = galleryService;
         this.router = router;
-        this.uploader = new __WEBPACK_IMPORTED_MODULE_1_ng2_file_upload__["FileUploader"]({ url: 'http://127.0.0.1:5000/api/gallery' });
+        this.uploader = new __WEBPACK_IMPORTED_MODULE_1_ng2_file_upload__["FileUploader"]({ url: 'https://rbk-warriors.herokuapp.com/api/gallery' });
         this.hasBaseDropZoneOver = false;
         this.images = [];
     }
