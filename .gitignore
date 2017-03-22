@@ -9,7 +9,7 @@
 /src/assets/gallery/*.*
 
 # environment
-.env
+
 
 # dependencies
 /node_modules
