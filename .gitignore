@@ -9,8 +9,10 @@
 /src/assets/gallery/*.*
 
 # environment
+.evn
 
-
+#dist 
+/dist
 # dependencies
 /node_modules
 
