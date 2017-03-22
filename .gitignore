@@ -3,6 +3,7 @@
 # compiled output
 /tmp
 /src/assets/projects
+/server/MockupData
 
 # ignore gallery
 /src/assets/gallery/*.*
